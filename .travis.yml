@@ -1,0 +1,27 @@
+# Required to run your project under the correct environment.
+language: php
+
+# Versions of PHP you want your project run with.
+php:
+  - 5.4
+  - 5.5
+  - 5.6
+  - hhvm
+
+# Commands you want to run that will verify your build.
+script: phpunit Money.php
+
+# allow_failures: Allow this build to fail under the specified environments.
+# fast_finish: If your build fails do not continue trying to build, just stop.
+matrix:
+  allow_failures:
+    - php: 5.6
+    - php: hhvm
+  fast_finish: true
+
+
+## Custom notifications
+notifications:
+  webhooks:
+    - https://outlook.office.com/webhook/d8aaf6c6-0083-4df3-a0e0-779fa0b5c8b8@72f988bf-86f1-41af-91ab-2d7cd011db47/TravisCI/7536652baff3469e96673de8dc5f057d/929c16ef-8d0d-46ca-a0c3-559937d6bd2c
+    - http://requestb.in/14948qw1
