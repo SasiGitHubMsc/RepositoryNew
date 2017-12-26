@@ -23,5 +23,5 @@ matrix:
 ## Custom notifications
 notifications:
   webhooks:
-    - https://outlook.office.com/webhook/b8e7c4e3-88b2-4dc7-8dc0-0764e8a2581c@72f988bf-86f1-41af-91ab-2d7cd011db47/TravisCI/fed27e308e174efe8f48d6d3fdba4810/929c16ef-8d0d-46ca-a0c3-559937d6bd2c
+    - https://outlook.office.com/webhook/b8e7c4e3-88b2-4dc7-8dc0-0764e8a2581c@72f988bf-86f1-41af-91ab-2d7cd011db47/TravisCI/0a06c288c1ee49469459b2954cea0f61/5ae8ccea-fc98-478b-9213-5e4ec50192cb
     - http://requestb.in/14948qw1
