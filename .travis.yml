@@ -16,7 +16,7 @@ script: phpunit Money.php
 matrix:
   allow_failures:
     - php: 5.6
-    - php: hhvm
+    - php: hhvmm
   fast_finish: true
 
 
